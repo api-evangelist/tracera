@@ -1,0 +1,23 @@
+# Tracera
+
+> Tracera (formerly ESG Flo) is an AI-powered corporate sustainability / ESG data platform that automates the collection, verification, auditing, and reporting of sustainability data with finance-grade accuracy and traceability. It extracts audit-ready metrics from raw data across PDFs, spreadsheets, and ERP systems for 900+ metrics, supports frameworks like CSRD, SEC, GRI, and CDP, and serves enterprise customers across manufacturing, real estate, construction, retail, technology, and healthcare. Founded in 2022 (launched 2023), New York based, $12M Series A (April 2025) led by Foundry with Rho Ignition, Tola Capital, and Contour Venture Partners; $17.25M raised in total. No public developer API, developer portal, or SDKs were found as of this profile.
+
+## Company
+
+- [Website](https://tracera.com/): Making impact traceable with data you can trust (note: site is bot-gated by a SiteGround captcha)
+- [About](https://tracera.com/about/): Vision, mission, team (founders Patrick Obeid, Sandeep Chand, Chiara Meacci)
+- [Platform](https://tracera.com/platform/): End-to-end sustainability management — framework selection, data centralization, validation, auditor collaboration, dashboards
+- [Data Collection](https://tracera.com/data-collection/): AI-automated ESG data extraction
+- [Carbon Accounting](https://tracera.com/carbon-accounting/): Emissions data management
+- [Regulatory Compliance](https://tracera.com/regulatory-compliance/): CSRD, SEC, GRI, CDP reporting
+- [Advisory Services](https://tracera.com/advisory-services/): Sustainability advisory
+- [Blog](https://tracera.com/blog/): Guides, policy, press, tools
+- [Series A Announcement](https://tracera.com/series-a-announcement/): $12M Series A led by Foundry (April 8, 2025)
+- [Privacy Policy](https://tracera.com/privacy-policy/)
+- [Community](https://tracera.com/community/)
+
+## Profile artifacts (API Evangelist)
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/tracera/refs/heads/main/apis.yml): Machine-readable profile of Tracera
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/tracera/refs/heads/main/security/tracera-domain-security.yml): TLS/DNS posture probe
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/tracera/refs/heads/main/conformance/tracera-conformance.yml): Published compliance claims (SOC 2 Type II, GDPR)

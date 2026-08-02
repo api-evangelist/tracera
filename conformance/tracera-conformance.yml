@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://tracera.com/ (via Wayback Machine snapshot 2025-12-01, live site is captcha-gated)
+notes: Tracera publishes no developer API, so no API-level standards conformance
+  can be asserted. The company does publish organizational compliance claims on its
+  website, captured below.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: 'Homepage states "GDPR & SOC 2 Type II Compliant" (tracera.com, snapshot
+    2025-12-01)'
+- id: gdpr
+  conforms: true
+  evidence: 'Homepage states "GDPR & SOC 2 Type II Compliant" (tracera.com, snapshot
+    2025-12-01)'
+- id: oauth2
+  conforms: false
+  evidence: no public API or securityScheme surface found
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API surface found
+reporting_frameworks_supported:
+- CSRD
+- SEC climate disclosure
+- GRI
+- CDP

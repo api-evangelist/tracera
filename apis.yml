@@ -1,9 +1,30 @@
 aid: tracera
 name: Tracera
-description: 'Tracera is a company surfaced as a portfolio company of foundry-group and added to the API
-  Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: Tracera (formerly ESG Flo) is an AI-powered corporate sustainability
+  and ESG data platform that automates the collection, verification, auditing, and
+  reporting of sustainability data with finance-grade accuracy and traceability.
+  The platform extracts audit-ready metrics from raw data across PDFs, spreadsheets,
+  and ERP systems for 900+ metrics, supports reporting frameworks including CSRD,
+  SEC, GRI, and CDP, and serves Fortune 2000 enterprises across manufacturing, real
+  estate, construction, retail, technology, and healthcare (customers include EnerSys,
+  La-Z-Boy, Sauder Woodworking, and Putzmeister). Founded in 2022 and based in New
+  York, Tracera raised a $12M Series A in April 2025 led by Foundry with Rho Ignition,
+  Tola Capital, and Contour Venture Partners ($17.25M total). Enrichment probing
+  found no public developer API, developer portal, SDKs, or event surface; the website
+  is bot-gated by a SiteGround captcha.
 url: https://raw.githubusercontent.com/api-evangelist/tracera/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tracera.com/wp-content/uploads/2025/01/cropped-tracera-favicon-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Climate
+- Sustainability
+- ESG
+- Carbon Accounting
+- ESG Reporting
+- Regulatory Compliance
+- Data Collection
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,34 @@ maintainers:
 common:
 - type: Website
   url: https://tracera.com
+- type: Blog
+  url: https://tracera.com/blog/
+- type: PrivacyPolicy
+  url: https://tracera.com/privacy-policy/
+- type: Support
+  url: https://tracera.com/community/
+- type: GitHubOrganization
+  url: https://github.com/esg-flo
+- type: SignUp
+  url: https://tracera.com/demo/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/esg-flo/
+- type: YouTube
+  url: https://www.youtube.com/@esgflo
+- type: Twitter
+  url: https://x.com/ESG_Flo
+- type: Compliance
+  url: conformance/tracera-conformance.yml
+- type: Conformance
+  url: conformance/tracera-conformance.yml
+- type: WellKnown
+  url: well-known/tracera-well-known.yml
+- type: LLMsTxt
+  url: llms/tracera-llms.txt
+- type: DomainSecurity
+  url: security/tracera-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+host: https://tracera.com
+notes: tracera.com is fronted by a SiteGround captcha (sgcaptcha) that intercepts
+  automated requests with HTTP 202 + a captcha challenge, so live well-known probes
+  could not reach origin. Wayback Machine history confirms /.well-known/ai-plugin.json
+  returned 404 at origin through 2025-12. No well-known discovery documents were
+  found. There is no api./docs./developer./trust./status. subdomain (DNS does not
+  resolve).
+documents:
+- path: /.well-known/security.txt
+  status: 202
+  note: captcha-intercepted (sgcaptcha challenge, not origin content)
+- path: /.well-known/openid-configuration
+  status: 202
+  note: captcha-intercepted
+- path: /.well-known/oauth-authorization-server
+  status: 202
+  note: captcha-intercepted
+- path: /.well-known/api-catalog
+  status: 202
+  note: captcha-intercepted
+- path: /.well-known/ai-plugin.json
+  status: 202
+  note: captcha-intercepted live; origin 404 per Wayback Machine snapshots 2025-01
+    through 2025-12
+- path: /llms.txt
+  status: 202
+  note: captcha-intercepted
