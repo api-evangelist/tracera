@@ -13,6 +13,17 @@ description: Tracera (formerly ESG Flo) is an AI-powered corporate sustainabilit
   found no public developer API, developer portal, SDKs, or event surface; the website
   is bot-gated by a SiteGround captcha.
 url: https://raw.githubusercontent.com/api-evangelist/tracera/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
